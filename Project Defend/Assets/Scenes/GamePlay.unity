@@ -606,6 +606,9 @@ MonoBehaviour:
   limiteYMinimo: -10.5
   limiteXMaximo: 4.5
   limiteXMinimo: -4.5
+  projetilPrefab: {fileID: 2193923245854621224, guid: a34fd07d56384ec40b0f30496dd61d29,
+    type: 3}
+  velocidadeProjetil: 10
 --- !u!212 &1669444427
 SpriteRenderer:
   m_ObjectHideFlags: 0
