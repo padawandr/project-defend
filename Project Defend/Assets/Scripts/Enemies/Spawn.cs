@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Spawn : MonoBehaviour
 {
 
     [Header("Configuração Inimigos")]
@@ -12,6 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
     private Rigidbody2D rbody;
     public float velocidadeEsqueletoX;
     public float velocidadeEsqueletoY;
+    public int rand;
 
 
     // Start is called before the first frame update
@@ -26,7 +27,7 @@ public class NewBehaviourScript : MonoBehaviour
     IEnumerator spawnEnemy()
     {
         yield return new WaitForSeconds(intervalo);
-        int rand = Random.Range(1, 6);
+        rand = Random.Range(1, 6);
 
         switch (rand)
         {
