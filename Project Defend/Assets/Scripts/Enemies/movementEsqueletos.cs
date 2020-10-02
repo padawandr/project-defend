@@ -20,11 +20,11 @@ public class movementEsqueletos : MonoBehaviour
         
         if (controleEsqueletos.rand == 1)
         {
-            rbody.velocity = new Vector2(controleEsqueletos.velocidadeEsqueletoX / 4, -controleEsqueletos.velocidadeEsqueletoY);
+            rbody.velocity = new Vector2(controleEsqueletos.velocidadeEsqueletoX / 3.5f, -controleEsqueletos.velocidadeEsqueletoY);
         }
         if (controleEsqueletos.rand == 2)
         {
-            rbody.velocity = new Vector2(controleEsqueletos.velocidadeEsqueletoX / 6, -controleEsqueletos.velocidadeEsqueletoY);
+            rbody.velocity = new Vector2(controleEsqueletos.velocidadeEsqueletoX / 8, -controleEsqueletos.velocidadeEsqueletoY);
         }
         if (controleEsqueletos.rand == 3)
         {
@@ -32,11 +32,11 @@ public class movementEsqueletos : MonoBehaviour
         }
         if (controleEsqueletos.rand == 4)
         {
-            rbody.velocity = new Vector2(-controleEsqueletos.velocidadeEsqueletoX / 6, -controleEsqueletos.velocidadeEsqueletoY);
+            rbody.velocity = new Vector2(-controleEsqueletos.velocidadeEsqueletoX / 8, -controleEsqueletos.velocidadeEsqueletoY);
         }
         if (controleEsqueletos.rand == 5)
         {
-            rbody.velocity = new Vector2(-controleEsqueletos.velocidadeEsqueletoX / 4, -controleEsqueletos.velocidadeEsqueletoY);
+            rbody.velocity = new Vector2(-controleEsqueletos.velocidadeEsqueletoX / 3.5f, -controleEsqueletos.velocidadeEsqueletoY);
         }
     }
 
