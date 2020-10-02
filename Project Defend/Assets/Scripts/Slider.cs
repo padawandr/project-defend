@@ -19,6 +19,8 @@ public class Slider : MonoBehaviour
     public GameObject projetilPrefab;
     public float velocidadeProjetil;
     public Transform posicaoTiro;
+    public float tiroInicial;
+    public float tiroContinuo;
 
     // Start is called before the first frame update
     void Start()
@@ -55,15 +57,21 @@ public class Slider : MonoBehaviour
             transform.position = new Vector3(limiteXMinimo , transform.position.y , 0);
         }
 
-        //Atirar
-        if(Input.GetMouseButtonDown(0))
-        { 
-            Transform shotpoint = posicaoTiro;
-
-            GameObject projectile = Instantiate(projetilPrefab, posicaoTiro.position, transform.rotation);
-
-            projectile.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadeProjetil, 0);
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            InvokeRepeating("Atirar", tiroInicial, tiroContinuo);
+        } else if (Input.GetKeyUp(KeyCode.Space)){
+            CancelInvoke("Atirar");
         }
 
+    }
+
+    void Atirar()
+    {
+        Transform shotpoint = posicaoTiro;
+
+        GameObject projectile = Instantiate(projetilPrefab, posicaoTiro.position, transform.rotation);
+
+        projectile.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadeProjetil, 0);
     }
 }
