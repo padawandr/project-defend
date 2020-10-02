@@ -64,6 +64,8 @@ public class Slider : MonoBehaviour
             CancelInvoke("Atirar");
         }
 
+        //Transform angulodoprojetil = vector x do slider * -1
+
     }
 
     void Atirar()
