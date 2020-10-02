@@ -18,6 +18,7 @@ public class Slider : MonoBehaviour
     [Header ("Configuração Projetil")]
     public GameObject projetilPrefab;
     public float velocidadeProjetil;
+    public Transform posicaoTiro;
 
     // Start is called before the first frame update
     void Start()
@@ -56,10 +57,13 @@ public class Slider : MonoBehaviour
 
         //Atirar
         if(Input.GetMouseButtonDown(0))
-        {
-            GameObject projectile = Instantiate(projetilPrefab, transform.position, transform.rotation);
+        { 
+            Transform shotpoint = posicaoTiro;
+
+            GameObject projectile = Instantiate(projetilPrefab, posicaoTiro.position, transform.rotation);
 
             projectile.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadeProjetil, 0);
         }
+
     }
 }
