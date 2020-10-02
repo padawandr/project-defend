@@ -118,8 +118,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dano: 0
-  tempoDeVida: 3
-  distancia: 0.5
+  tempoDeVida: 2.5
+  distancia: 15
   layerInimigo:
     serializedVersion: 2
     m_Bits: 0
