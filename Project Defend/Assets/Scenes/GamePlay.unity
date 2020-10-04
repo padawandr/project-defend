@@ -202,6 +202,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &476851144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 476851146}
+  - component: {fileID: 476851145}
+  m_Layer: 0
+  m_Name: Weapon
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &476851145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476851144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7ef021fedaae4fba2cd799e2cefa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 1669444424}
+  projectile: {fileID: 2193923245854621224, guid: a34fd07d56384ec40b0f30496dd61d29,
+    type: 3}
+  shotPoint: {fileID: 1210216536}
+  timeBetweenShots: 0.2
+--- !u!4 &476851146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476851144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.02, y: -7.7, z: -20.641201}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1210216536}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -496,7 +545,7 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &625207940
 Animator:
@@ -547,7 +596,7 @@ Transform:
   - {fileID: 622842985}
   - {fileID: 299883238}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210216535
 GameObject:
@@ -559,7 +608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1210216536}
   m_Layer: 0
-  m_Name: posicaoTiro
+  m_Name: shotPoint
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -573,81 +622,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210216535}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.22, z: 0}
+  m_LocalPosition: {x: 0, y: 0.07, z: 20.641201}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 476851146}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1521761108
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2193923245854621224, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_Name
-      value: Projetil
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.03700924
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.21399
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2193923245854621228, guid: a34fd07d56384ec40b0f30496dd61d29,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a34fd07d56384ec40b0f30496dd61d29, type: 3}
 --- !u!1 &1669444424
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,17 +680,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a3dadfce43b0149be26a34ef7513ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadeSlider: 25
+  velocidadeSlider: 15
   limiteYMaximo: -10.5
   limiteYMinimo: -10.5
   limiteXMaximo: 4.5
   limiteXMinimo: -4.5
-  projetilPrefab: {fileID: 2193923245854621224, guid: a34fd07d56384ec40b0f30496dd61d29,
-    type: 3}
-  velocidadeProjetil: 10
-  posicaoTiro: {fileID: 1210216536}
-  tiroInicial: 0
-  tiroContinuo: 0.3
 --- !u!212 &1669444427
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -774,5 +748,5 @@ Transform:
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

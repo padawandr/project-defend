@@ -117,8 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202825ad552031f4fa47c3b1e4373364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  lifeTime: 2
   dano: 0
-  tempoDeVida: 2.5
   distancia: 15
   layerInimigo:
     serializedVersion: 2
