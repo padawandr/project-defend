@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7352734818998749199}
   - component: {fileID: 8478775287090918410}
   - component: {fileID: -7438484226556611298}
-  - component: {fileID: -8868518028419797334}
+  - component: {fileID: 3420377509518063280}
+  - component: {fileID: 81844147}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Lagarta Generica
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8115820887687423700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.467438, y: 4.467438, z: 4.467438}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f104e3f1ee60d234cb654d02b40a562b, type: 3}
+  m_Sprite: {fileID: 386859158702204781, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,7 +118,33 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!95 &-8868518028419797334
+--- !u!61 &3420377509518063280
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8115820887687423700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0009667445, y: -0.0029417276}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.25}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.11943947, y: 0.14692208}
+  m_EdgeRadius: 0
+--- !u!95 &81844147
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -127,7 +154,7 @@ Animator:
   m_GameObject: {fileID: 8115820887687423700}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5279b31170bfc8746b849fb742eae415, type: 2}
+  m_Controller: {fileID: 9100000, guid: cbe3bb0766a08c74499c91413970b1c6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

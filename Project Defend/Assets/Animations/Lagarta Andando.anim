@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Lagarta Spawnando
+  m_Name: Lagarta Andando
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,28 +20,28 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -4500124125722189764, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: 386859158702204781, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 0.16666667
-      value: {fileID: -8644628351548625313, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: 8050622543040000643, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 0.33333334
-      value: {fileID: 9161277554155252362, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: 6220319635126522629, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 0.5
-      value: {fileID: -1332817644054152231, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: -7236532287798538080, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 0.6666667
-      value: {fileID: -4761754898805711320, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: -94461977887885431, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 0.8333333
-      value: {fileID: 7912172019665056626, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: -186766962872540359, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 1
-      value: {fileID: 7735249511362067190, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: -6726212945740987598, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     - time: 1.1666666
-      value: {fileID: 1159822549822783153, guid: 8a62b3a7141837247b05346e11f1f253,
+      value: {fileID: -3969685916655651523, guid: df2bad4354050dc4c88f09a235ea07cc,
         type: 3}
     attribute: m_Sprite
     path: 
@@ -62,14 +62,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -4500124125722189764, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: -8644628351548625313, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: 9161277554155252362, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: -1332817644054152231, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: -4761754898805711320, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: 7912172019665056626, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: 7735249511362067190, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
-    - {fileID: 1159822549822783153, guid: 8a62b3a7141837247b05346e11f1f253, type: 3}
+    - {fileID: 386859158702204781, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: 8050622543040000643, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: 6220319635126522629, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: -7236532287798538080, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: -94461977887885431, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: -186766962872540359, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: -6726212945740987598, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
+    - {fileID: -3969685916655651523, guid: df2bad4354050dc4c88f09a235ea07cc, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

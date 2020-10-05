@@ -39,5 +39,17 @@ public class movementEsqueletos : MonoBehaviour
             rbody.velocity = new Vector2(-controleEsqueletos.velocidadeEsqueletoX / 3.5f, -controleEsqueletos.velocidadeEsqueletoY);
         }
     }
+   
+    //Condiçao para morte e acerto(trocar "Triangle (1)" pelo nome da flecha UwU.
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Triangle (1)")
+        {
+            Destroy(this.gameObject);
+        }
+    }
+    
+    
+
 
 }
