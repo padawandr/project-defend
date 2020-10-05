@@ -1,0 +1,1904 @@
+fileFormatVersion: 2
+guid: 8a62b3a7141837247b05346e11f1f253
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4500124125722189764
+    second: lagarta-sprite-sheet (1)_0
+  - first:
+      213: -8644628351548625313
+    second: lagarta-sprite-sheet (1)_1
+  - first:
+      213: 9161277554155252362
+    second: lagarta-sprite-sheet (1)_2
+  - first:
+      213: -1332817644054152231
+    second: lagarta-sprite-sheet (1)_3
+  - first:
+      213: -4761754898805711320
+    second: lagarta-sprite-sheet (1)_4
+  - first:
+      213: 7912172019665056626
+    second: lagarta-sprite-sheet (1)_5
+  - first:
+      213: 7735249511362067190
+    second: lagarta-sprite-sheet (1)_6
+  - first:
+      213: 1159822549822783153
+    second: lagarta-sprite-sheet (1)_7
+  - first:
+      213: 9220420219234917901
+    second: lagarta-sprite-sheet (1)_8
+  - first:
+      213: -2248237549707729212
+    second: lagarta-sprite-sheet (1)_9
+  - first:
+      213: 520275424836347760
+    second: lagarta-sprite-sheet (1)_10
+  - first:
+      213: 8820502822001287793
+    second: lagarta-sprite-sheet (1)_11
+  - first:
+      213: -6713975237714702124
+    second: lagarta-sprite-sheet (1)_12
+  - first:
+      213: -7368104642825245959
+    second: lagarta-sprite-sheet (1)_13
+  - first:
+      213: -5439894135912586530
+    second: lagarta-sprite-sheet (1)_14
+  - first:
+      213: 3581350522376760072
+    second: lagarta-sprite-sheet (1)_15
+  - first:
+      213: -4410323172424227173
+    second: lagarta-sprite-sheet (1)_16
+  - first:
+      213: -7100351864421219009
+    second: lagarta-sprite-sheet (1)_17
+  - first:
+      213: -1377883025579478182
+    second: lagarta-sprite-sheet (1)_18
+  - first:
+      213: -6652097662249995669
+    second: lagarta-sprite-sheet (1)_19
+  - first:
+      213: -5919169706419745419
+    second: lagarta-sprite-sheet (1)_20
+  - first:
+      213: 4631327675290792813
+    second: lagarta-sprite-sheet (1)_21
+  - first:
+      213: 2607405707305146577
+    second: lagarta-sprite-sheet (1)_22
+  - first:
+      213: -8328385045751722029
+    second: lagarta-sprite-sheet (1)_23
+  - first:
+      213: -2853482168036330766
+    second: lagarta-sprite-sheet (1)_24
+  - first:
+      213: -4560837941968818122
+    second: lagarta-sprite-sheet (1)_25
+  - first:
+      213: -367350731207744822
+    second: lagarta-sprite-sheet (1)_26
+  - first:
+      213: -201419606223515054
+    second: lagarta-sprite-sheet (1)_27
+  - first:
+      213: 6990694229269008828
+    second: lagarta-sprite-sheet (1)_28
+  - first:
+      213: 2013853808892806676
+    second: lagarta-sprite-sheet (1)_29
+  - first:
+      213: -863035280070732396
+    second: lagarta-sprite-sheet (1)_30
+  - first:
+      213: 86004827717671795
+    second: lagarta-sprite-sheet (1)_31
+  - first:
+      213: 6645255051118683039
+    second: lagarta-sprite-sheet (1)_32
+  - first:
+      213: -2799341699119944347
+    second: lagarta-sprite-sheet (1)_33
+  - first:
+      213: 6136086612905335331
+    second: lagarta-sprite-sheet (1)_34
+  - first:
+      213: 1762891314162202151
+    second: lagarta-sprite-sheet (1)_35
+  - first:
+      213: -553516862685755139
+    second: lagarta-sprite-sheet (1)_36
+  - first:
+      213: -5635934874105382155
+    second: lagarta-sprite-sheet (1)_37
+  - first:
+      213: -6142064833784642045
+    second: lagarta-sprite-sheet (1)_38
+  - first:
+      213: 9168420116239571418
+    second: lagarta-sprite-sheet (1)_39
+  - first:
+      213: -6420814484725535732
+    second: lagarta-sprite-sheet (1)_40
+  - first:
+      213: -2565597707936399566
+    second: lagarta-sprite-sheet (1)_41
+  - first:
+      213: -8158891123302755918
+    second: lagarta-sprite-sheet (1)_42
+  - first:
+      213: -8720753537928316764
+    second: lagarta-sprite-sheet (1)_43
+  - first:
+      213: 1534452789718236217
+    second: lagarta-sprite-sheet (1)_44
+  - first:
+      213: 8588689872899219597
+    second: lagarta-sprite-sheet (1)_45
+  - first:
+      213: 4679132023769515766
+    second: lagarta-sprite-sheet (1)_46
+  - first:
+      213: 6399794751564367335
+    second: lagarta-sprite-sheet (1)_47
+  - first:
+      213: 2707427597958487072
+    second: lagarta-sprite-sheet (1)_48
+  - first:
+      213: 3612579809308240519
+    second: lagarta-sprite-sheet (1)_49
+  - first:
+      213: 1879795477688147124
+    second: lagarta-sprite-sheet (1)_50
+  - first:
+      213: 8554342100766988028
+    second: lagarta-sprite-sheet (1)_51
+  - first:
+      213: 1661882963750996033
+    second: lagarta-sprite-sheet (1)_52
+  - first:
+      213: -1984225992109176699
+    second: lagarta-sprite-sheet (1)_53
+  - first:
+      213: 3412333333379289034
+    second: lagarta-sprite-sheet (1)_54
+  - first:
+      213: -2075079171989938346
+    second: lagarta-sprite-sheet (1)_55
+  - first:
+      213: 454381262560619846
+    second: lagarta-sprite-sheet (1)_56
+  - first:
+      213: -123933787791178413
+    second: lagarta-sprite-sheet (1)_57
+  - first:
+      213: -6311401234330822881
+    second: lagarta-sprite-sheet (1)_58
+  - first:
+      213: 8596919067178111818
+    second: lagarta-sprite-sheet (1)_59
+  - first:
+      213: -7627216741098948740
+    second: lagarta-sprite-sheet (1)_60
+  - first:
+      213: 3835346553014426732
+    second: lagarta-sprite-sheet (1)_61
+  - first:
+      213: 5604364392351495737
+    second: lagarta-sprite-sheet (1)_62
+  - first:
+      213: 5262636842571508849
+    second: lagarta-sprite-sheet (1)_63
+  - first:
+      213: -7481471568051472585
+    second: lagarta-sprite-sheet (1)_64
+  - first:
+      213: 2398810426995745521
+    second: lagarta-sprite-sheet (1)_65
+  - first:
+      213: -1258038653548090276
+    second: lagarta-sprite-sheet (1)_66
+  - first:
+      213: 6388914756741759388
+    second: lagarta-sprite-sheet (1)_67
+  - first:
+      213: 5361564766313732833
+    second: lagarta-sprite-sheet (1)_68
+  - first:
+      213: 3994526959456213266
+    second: lagarta-sprite-sheet (1)_69
+  - first:
+      213: 1729367123012479542
+    second: lagarta-sprite-sheet (1)_70
+  - first:
+      213: -1534247101417593677
+    second: lagarta-sprite-sheet (1)_71
+  - first:
+      213: -4813281405960929067
+    second: lagarta-sprite-sheet (1)_72
+  - first:
+      213: -2817245668470267229
+    second: lagarta-sprite-sheet (1)_73
+  - first:
+      213: 2607929813539340925
+    second: lagarta-sprite-sheet (1)_74
+  - first:
+      213: -913535808100351294
+    second: lagarta-sprite-sheet (1)_75
+  - first:
+      213: 6635640589150471097
+    second: lagarta-sprite-sheet (1)_76
+  - first:
+      213: 2950463641646074967
+    second: lagarta-sprite-sheet (1)_77
+  - first:
+      213: 1397614953219850795
+    second: lagarta-sprite-sheet (1)_78
+  - first:
+      213: 1291529690920918676
+    second: lagarta-sprite-sheet (1)_79
+  - first:
+      213: -8926551456466988991
+    second: lagarta-sprite-sheet (1)_80
+  - first:
+      213: 5516500312287951426
+    second: lagarta-sprite-sheet (1)_81
+  - first:
+      213: -9012336623833015584
+    second: lagarta-sprite-sheet (1)_82
+  - first:
+      213: 6554391270151361687
+    second: lagarta-sprite-sheet (1)_83
+  - first:
+      213: 7662982962300484462
+    second: lagarta-sprite-sheet (1)_84
+  - first:
+      213: 2640651347331511016
+    second: lagarta-sprite-sheet (1)_85
+  - first:
+      213: 7180114601649018342
+    second: lagarta-sprite-sheet (1)_86
+  - first:
+      213: 2502643891509065711
+    second: lagarta-sprite-sheet (1)_87
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e92943f85c81c0800000000000000
+      internalID: -4500124125722189764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e6ca2c05c180880800000000000000
+      internalID: -8644628351548625313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aee20a565632f70800000000000000
+      internalID: 9161277554155252362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db77cf0a61e08de0800000000000000
+      internalID: -1332817644054152231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e953df529daedb0800000000000000
+      internalID: -4761754898805711320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273bbe9088eadcd60800000000000000
+      internalID: 7912172019665056626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6faffbd8270295b60800000000000000
+      internalID: 7735249511362067190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 296
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bebcacc674881010800000000000000
+      internalID: 1159822549822783153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e9357665385ff70800000000000000
+      internalID: 9220420219234917901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e9f63cd7acc0e0800000000000000
+      internalID: -2248237549707729212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0776cba0eb3683700800000000000000
+      internalID: 520275424836347760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172a7b56598b86a70800000000000000
+      internalID: 8820502822001287793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d01f3de71b23d2a0800000000000000
+      internalID: -6713975237714702124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faae708ddb3fb990800000000000000
+      internalID: -7368104642825245959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2233dea1d9184b0800000000000000
+      internalID: -5439894135912586530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 261
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b2d66435383b130800000000000000
+      internalID: 3581350522376760072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96eafa01726bc2c0800000000000000
+      internalID: -4410323172424227173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_17
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3504ec399b767d90800000000000000
+      internalID: -7100351864421219009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a537b4640b6c0ece0800000000000000
+      internalID: -1377883025579478182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62f166ab600fa3a0800000000000000
+      internalID: -6652097662249995669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d099b5382eadda0800000000000000
+      internalID: -5919169706419745419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_21
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b42c9bf7c54040800000000000000
+      internalID: 4631327675290792813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_22
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8df391dad5f2420800000000000000
+      internalID: 2607405707305146577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_23
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 226
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df0b433de1ab6c80800000000000000
+      internalID: -8328385045751722029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2784926156668d0800000000000000
+      internalID: -2853482168036330766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_25
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63033de5e06a4b0c0800000000000000
+      internalID: -4560837941968818122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_26
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2e16ec478e6eaf0800000000000000
+      internalID: -367350731207744822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_27
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2529f307fe9643df0800000000000000
+      internalID: -201419606223515054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1d3fcfc5fe30160800000000000000
+      internalID: 6990694229269008828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_29
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4168f9c8e55a2fb10800000000000000
+      internalID: 2013853808892806676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_30
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49511ce3cf1e504f0800000000000000
+      internalID: -863035280070732396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 191
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b94156fec813100800000000000000
+      internalID: 86004827717671795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93accbc240b83c50800000000000000
+      internalID: 6645255051118683039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d64036e8db629d0800000000000000
+      internalID: -2799341699119944347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_34
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32a90499342c72550800000000000000
+      internalID: 6136086612905335331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_35
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726724e5f4c077810800000000000000
+      internalID: 1762891314162202151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_36
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df84d6698538158f0800000000000000
+      internalID: -553516862685755139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_37
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa76bba71329c1b0800000000000000
+      internalID: -5635934874105382155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_38
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30609d2639003caa0800000000000000
+      internalID: -6142064833784642045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_39
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 156
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad95104f485cc3f70800000000000000
+      internalID: 9168420116239571418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c604dbe3fa4e6a0800000000000000
+      internalID: -6420814484725535732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_41
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ff4ed4a7a256cd0800000000000000
+      internalID: -2565597707936399566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_42
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1937240cbc5ce80800000000000000
+      internalID: -8158891123302755918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_43
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a83d0e9cd8a9f680800000000000000
+      internalID: -8720753537928316764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_44
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c33cfaea87b4510800000000000000
+      internalID: 1534452789718236217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_45
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8027204fe7213770800000000000000
+      internalID: 8588689872899219597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_46
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f6cfe5d8cd9fe040800000000000000
+      internalID: 4679132023769515766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_47
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 121
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e547624b63a0d850800000000000000
+      internalID: 6399794751564367335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c97674e07b29520800000000000000
+      internalID: 2707427597958487072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ae0904236722230800000000000000
+      internalID: 3612579809308240519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcdcf10700661a10800000000000000
+      internalID: 1879795477688147124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_51
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6926b51d027b670800000000000000
+      internalID: 8554342100766988028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_52
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148c6a020c1301710800000000000000
+      internalID: 1661882963750996033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_53
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5884c3a19fc9674e0800000000000000
+      internalID: -1984225992109176699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_54
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf0c4f561b0b5f20800000000000000
+      internalID: 3412333333379289034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_55
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 86
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f5ab0cc76d333e0800000000000000
+      internalID: -2075079171989938346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64de483d9594e4600800000000000000
+      internalID: 454381262560619846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_57
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355c90b60e2b74ef0800000000000000
+      internalID: -123933787791178413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_58
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17dfb044066968a0800000000000000
+      internalID: -6311401234330822881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_59
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a431fe9d7546e4770800000000000000
+      internalID: 8596919067178111818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_60
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7772e1e8cea62690800000000000000
+      internalID: -7627216741098948740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_61
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c91f29e53e93530800000000000000
+      internalID: 3835346553014426732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_62
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93675fdb8b3b6cd40800000000000000
+      internalID: 5604364392351495737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_63
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 51
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cab5f5354a80940800000000000000
+      internalID: 5262636842571508849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7377b155f397c2890800000000000000
+      internalID: -7481471568051472585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_65
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2a598bf594a4120800000000000000
+      internalID: 2398810426995745521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_66
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c2e8d828c8a8ee0800000000000000
+      internalID: -1258038653548090276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_67
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9108df0f1cf9a850800000000000000
+      internalID: 6388914756741759388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_68
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea51688fba186a40800000000000000
+      internalID: 5361564766313732833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_69
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219db101b196f6730800000000000000
+      internalID: 3994526959456213266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_70
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae56d5c32fff710800000000000000
+      internalID: 1729367123012479542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lagarta-sprite-sheet (1)_71
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 16
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4e45ad36245bae0800000000000000
+      internalID: -1534247101417593677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
