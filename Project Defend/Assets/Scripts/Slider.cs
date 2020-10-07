@@ -5,8 +5,9 @@ using UnityEngine;
 public class Slider : MonoBehaviour
 {
 
-    //Declarando variaveis para a conf. do limite
+    [Header ("Configuração Velocidade")]
     public float velocidadeSlider;
+    //Declarando variaveis para a conf. do limite
     [Header ("Configuração Limite")]
     public float limiteYMaximo;
     public float limiteYMinimo;
@@ -28,6 +29,7 @@ public class Slider : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         rBody.velocity = new Vector2(horizontal * velocidadeSlider, vertical * velocidadeSlider);
+        rBody.velocity *= Time.deltaTime;
 
         //Ajusta o limite Y
         if(transform.position.y > limiteYMaximo) 
