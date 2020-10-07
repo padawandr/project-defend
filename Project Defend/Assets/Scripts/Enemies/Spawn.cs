@@ -7,7 +7,8 @@ public class Spawn : MonoBehaviour
 {
 
     [Header("Configuração Inimigos")]
-    public int intervalo;
+    public float intervaloSpawn;
+    public float intervaloMorte;
     public GameObject prefabEsqueleto;
     private Rigidbody2D rbody;
     public float velocidadeEsqueletoX;
@@ -26,7 +27,7 @@ public class Spawn : MonoBehaviour
 
     IEnumerator spawnEnemy()
     {
-        yield return new WaitForSeconds(intervalo);
+        yield return new WaitForSeconds(intervaloSpawn);
         rand = Random.Range(1, 6);
 
         switch (rand)

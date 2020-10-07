@@ -94,7 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220f088116026064e9e8cc6f1cb4a4f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  intervalo: 2
+  intervaloSpawn: 2
+  intervaloMorte: 2
   prefabEsqueleto: {fileID: 8115820887687423700, guid: 99d309cbbe4f6ab45b0c15048fee0965,
     type: 3}
   velocidadeEsqueletoX: 1
