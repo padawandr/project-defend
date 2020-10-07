@@ -29,7 +29,6 @@ public class Slider : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         rBody.velocity = new Vector2(horizontal * velocidadeSlider, vertical * velocidadeSlider);
-        rBody.velocity *= Time.deltaTime;
 
         //Ajusta o limite Y
         if(transform.position.y > limiteYMaximo) 
