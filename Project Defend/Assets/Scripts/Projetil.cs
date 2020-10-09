@@ -4,39 +4,22 @@ using UnityEngine;
 
 public class Projetil : MonoBehaviour
 {
-
     public float speed;
-    public float lifeTime;
 
-    public int dano;
-    public float distancia;
-    public LayerMask layerInimigo;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Destroy(gameObject, lifeTime);
-    }
-
-    // Update is called once per frame
     void Update()
     {
-
         transform.Translate(Vector3.up * speed * Time.deltaTime);
+    }
 
-        //Dar dano no inimigo
-        //RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.forward, distancia, layerInimigo);
+    private void OnBecameInvisible() {
+        Destroy(this.gameObject);
+    }
 
-        /* if(hitInfo.collider != null)
-        {
-            if(hitInfo.collider.CompareTag("Inimigo"))
-            {
-                hitInfo.collider.GetComponent<NomeDoScriptDoInimigo>().TakeDamage(dano);
-            }
-
-            DestruirProtejil();
-        } */
-
-
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "inimigo") {
+            Destroy(this.gameObject);
+        }
     }
 
 }

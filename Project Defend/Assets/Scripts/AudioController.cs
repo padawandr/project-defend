@@ -6,7 +6,7 @@ public class AudioController : MonoBehaviour
 {
     public AudioSource audioSourceMusicaDeFundo;
     public AudioClip[] musicasDeFundo;
-    // Start is called before the first frame update
+
     void Start()
     {
         //Escolhe aleatóriamente a música de fundo em uma array
@@ -15,11 +15,5 @@ public class AudioController : MonoBehaviour
         AudioClip musicaGamePlay = musicasDeFundo[IndexDaMusicaDeFundo];
         audioSourceMusicaDeFundo.clip = musicaGamePlay;
         audioSourceMusicaDeFundo.Play();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
