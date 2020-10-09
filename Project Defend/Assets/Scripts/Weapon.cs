@@ -8,8 +8,14 @@ public class Weapon : MonoBehaviour
     public GameObject projectile;
     public Transform shotPoint;
     public float timeBetweenShots;
+    public bool canShoot;
 
     private float shotTime;
+
+    private void Start()
+    {
+        canShoot = true;
+    }
 
     void Update()
     {
@@ -18,7 +24,7 @@ public class Weapon : MonoBehaviour
         Quaternion rotation = Quaternion.AngleAxis(angle + 90, Vector3.forward);
         transform.rotation = rotation;
 
-        if (Time.time > shotTime) {
+        if (canShoot && Time.time > shotTime) {
             Instantiate(projectile, shotPoint.position, transform.rotation);
             shotTime = Time.time + timeBetweenShots;
         }

@@ -282,6 +282,7 @@ MonoBehaviour:
     type: 3}
   shotPoint: {fileID: 1210216536}
   timeBetweenShots: 2
+  canShoot: 0
 --- !u!4 &476851146
 Transform:
   m_ObjectHideFlags: 0
@@ -290,7 +291,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 476851144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.7, z: -20.641201}
+  m_LocalPosition: {x: 0, y: -8.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1210216536}
@@ -477,7 +478,7 @@ GameObject:
   - component: {fileID: 625207941}
   m_Layer: 0
   m_Name: Arqueiro
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -520,7 +521,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.19, y: 0.3}
+    oldSize: {x: 1.0555556, y: 1.6666666}
     newSize: {x: 0.19, y: 0.3}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -589,7 +590,7 @@ Transform:
   m_GameObject: {fileID: 625207935}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -8.16, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -625,6 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0535bc8109644e44e95718cc312f2496, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slider: {fileID: 1669444428}
 --- !u!1 &633391934
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,7 +732,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -829,7 +831,6 @@ MonoBehaviour:
   audioSourceMusicaDeFundo: {fileID: 926241177}
   musicasDeFundo:
   - {fileID: 8300000, guid: d7b129f797a3b1d40ba719bd06a09d02, type: 3}
-  - {fileID: 8300000, guid: 1e2880972e61acb448e90ada3e893840, type: 3}
 --- !u!4 &926241179
 Transform:
   m_ObjectHideFlags: 0
@@ -838,7 +839,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926241176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.004705455, y: -0.07676864, z: -34.666016}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

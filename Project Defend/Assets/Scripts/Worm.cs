@@ -54,7 +54,7 @@ public class Worm : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "projetil") {
+        if (other.gameObject.tag == "projetil" || other.gameObject.tag == "Player") {
             estaMorto = true;
             podeAndar = false;
             col.enabled = false;
