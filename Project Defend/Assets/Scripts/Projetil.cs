@@ -4,38 +4,27 @@ using UnityEngine;
 
 public class Projetil : MonoBehaviour
 {
+    public float speed;
 
-    public int dano;
-    public float tempoDeVida;
-    public float distancia;
-    public LayerMask layerInimigo;
-    // Start is called before the first frame update
-    void Start()
-    {
-        Invoke("DestruirProjetil", tempoDeVida);
-    }
+    //variaveis para efeitos sonoros
+   // public AudioClip sfxHit;
+  //  public AudioController audioController;
 
-    // Update is called once per frame
     void Update()
     {
-        //Dar dano no inimigo
-        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.forward, distancia, layerInimigo);
-
-        /* if(hitInfo.collider != null)
-        {
-            if(hitInfo.collider.CompareTag("Inimigo"))
-            {
-                hitInfo.collider.GetComponent<NomeDoScriptDoInimigo>().TakeDamage(dano);
-            }
-
-            DestruirProtejil();
-        } */
-
-
+        transform.Translate(Vector3.up * speed * Time.deltaTime);
     }
 
-    void DestruirProjetil() 
+    private void OnBecameInvisible() {
+        Destroy(this.gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
     {
-        Destroy(gameObject);
+        if (col.gameObject.tag == "inimigo") {
+            Destroy(this.gameObject);
+            //audioController.ToqueSFX(sfxHit);
+        }
     }
+
 }

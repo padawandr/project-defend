@@ -5,22 +5,15 @@ using UnityEngine;
 public class Slider : MonoBehaviour
 {
 
-    //Declarando variaveis para a conf. do limite
+    [Header ("Configuração Velocidade")]
     public float velocidadeSlider;
+    //Declarando variaveis para a conf. do limite
     [Header ("Configuração Limite")]
     public float limiteYMaximo;
     public float limiteYMinimo;
     public float limiteXMaximo;
     public float limiteXMinimo;
     private Rigidbody2D rBody;
-
-    //Declarando objeto do projetil
-    [Header ("Configuração Projetil")]
-    public GameObject projetilPrefab;
-    public float velocidadeProjetil;
-    public Transform posicaoTiro;
-    public float tiroInicial;
-    public float tiroContinuo;
 
     // Start is called before the first frame update
     void Start()
@@ -57,23 +50,6 @@ public class Slider : MonoBehaviour
             transform.position = new Vector3(limiteXMinimo , transform.position.y , 0);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            InvokeRepeating("Atirar", tiroInicial, tiroContinuo);
-        } else if (Input.GetKeyUp(KeyCode.Space)){
-            CancelInvoke("Atirar");
-        }
-
-        //Transform angulodoprojetil = vector x do slider * -1
-
     }
 
-    void Atirar()
-    {
-        Transform shotpoint = posicaoTiro;
-
-        GameObject projectile = Instantiate(projetilPrefab, posicaoTiro.position, transform.rotation);
-
-        projectile.GetComponent<Rigidbody2D>().velocity = new Vector3(0, velocidadeProjetil, 0);
-    }
 }
