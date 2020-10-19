@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioController : MonoBehaviour
 {
     public AudioSource audioSourceMusicaDeFundo;
+    public AudioSource audioSourceSFX;
     public AudioClip[] musicasDeFundo;
 
     void Start()
@@ -15,5 +16,11 @@ public class AudioController : MonoBehaviour
         AudioClip musicaGamePlay = musicasDeFundo[IndexDaMusicaDeFundo];
         audioSourceMusicaDeFundo.clip = musicaGamePlay;
         audioSourceMusicaDeFundo.Play();
+    }
+
+    //função para tocar os efeitos sonoros
+    public void ToqueSFX(AudioClip clip) {
+        audioSourceSFX.clip = clip;
+        audioSourceSFX.Play();
     }
 }

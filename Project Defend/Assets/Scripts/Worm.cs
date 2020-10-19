@@ -8,6 +8,7 @@ public class Worm : MonoBehaviour
     public float tempoSpawn;
     public float tempoMorte;
     public int pontuacao;
+    public bool hit;
 
     private GameController _gc;
     private Animator anim;
@@ -61,6 +62,7 @@ public class Worm : MonoBehaviour
             srend.sortingOrder = 0;
             anim.SetBool("morreu", true);
             _gc.addScore(pontuacao);
+            _gc.SfxHit(hit);
             Destroy(this.gameObject, tempoMorte);
         }
     }

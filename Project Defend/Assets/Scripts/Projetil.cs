@@ -6,6 +6,10 @@ public class Projetil : MonoBehaviour
 {
     public float speed;
 
+    //variaveis para efeitos sonoros
+   // public AudioClip sfxHit;
+  //  public AudioController audioController;
+
     void Update()
     {
         transform.Translate(Vector3.up * speed * Time.deltaTime);
@@ -19,6 +23,7 @@ public class Projetil : MonoBehaviour
     {
         if (col.gameObject.tag == "inimigo") {
             Destroy(this.gameObject);
+            //audioController.ToqueSFX(sfxHit);
         }
     }
 

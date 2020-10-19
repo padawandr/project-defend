@@ -9,6 +9,10 @@ public class GameController : MonoBehaviour
 
     private int score;
 
+    //variaveis para efeitos sonoros
+    public AudioClip sfxHit;
+    public AudioController audioController;
+
     private void Start()
     {
         score = 0;
@@ -19,5 +23,10 @@ public class GameController : MonoBehaviour
     {
         score += enemyScore;
         txtScore.text = score.ToString();
+    }
+
+    public void SfxHit(bool hit)
+    {
+        audioController.ToqueSFX(sfxHit);
     }
 }

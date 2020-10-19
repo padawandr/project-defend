@@ -12,6 +12,10 @@ public class Weapon : MonoBehaviour
 
     private float shotTime;
 
+    //variaveis sfx
+    public AudioClip sfxShot;
+    public AudioController audioController;
+
     private void Start()
     {
         canShoot = true;
@@ -27,6 +31,7 @@ public class Weapon : MonoBehaviour
         if (canShoot && Time.time > shotTime) {
             Instantiate(projectile, shotPoint.position, transform.rotation);
             shotTime = Time.time + timeBetweenShots;
+            audioController.ToqueSFX(sfxShot);
         }
     }
 }
