@@ -8,6 +8,9 @@ public class Worm : MonoBehaviour
     public float tempoSpawn;
     public float tempoMorte;
     public int pontuacao;
+    public int maxHealth = 1;
+    public int currentHealth;
+    public HealthBar vida;
 
     private GameController _gc;
     private Animator anim;
@@ -15,7 +18,7 @@ public class Worm : MonoBehaviour
     private SpriteRenderer srend;
     private Collider2D col;
     private bool podeAndar;
-    private bool estaMorto;
+    private bool estaMorto; 
 
     private void Start()
     {
@@ -26,6 +29,8 @@ public class Worm : MonoBehaviour
         col = GetComponent<Collider2D>();
         col.enabled = false;
         tempoSpawn += Time.time;
+        currentHealth = maxHealth;
+        vida.SetMaxHealth(maxHealth);
 
         switch (transform.position.x) {
             case -4: velocidade.x = .32F; break;
@@ -60,6 +65,7 @@ public class Worm : MonoBehaviour
             col.enabled = false;
             srend.sortingOrder = 0;
             anim.SetBool("morreu", true);
+            TakeDamage(1);
             _gc.addScore(pontuacao);
             Destroy(this.gameObject, tempoMorte);
         }
@@ -68,4 +74,11 @@ public class Worm : MonoBehaviour
     private void OnBecameInvisible() {
         Destroy(this.gameObject);
     }
+
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        vida.SetHealht(currentHealth);
+    }
+
 }
