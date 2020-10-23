@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
     {
         score = 0;
         txtScore.text = score.ToString();
+        Time.timeScale = 1f;
     }
 
     public void addScore(int enemyScore)
