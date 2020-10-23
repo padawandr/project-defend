@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -10,8 +11,14 @@ public class GameController : MonoBehaviour
     private int score;
 
     private void Start()
-    {
-        score = 0;
+    {   if (SceneManager.GetActiveScene().name == "GameOver")
+        {
+            score = Score.score;
+        }
+        else
+        {
+            score = 0;
+        }
         txtScore.text = score.ToString();
         Time.timeScale = 1f;
     }
@@ -20,5 +27,9 @@ public class GameController : MonoBehaviour
     {
         score += enemyScore;
         txtScore.text = score.ToString();
+        
+        
+        Score.score = this.score;
     }
+   
 }

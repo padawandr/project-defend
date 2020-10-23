@@ -48,7 +48,7 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(cenaMenu);
     }
 
-    public void Quit()
+    public void Restart()
     {
         SceneManager.LoadScene(cenaQuit);
     }
