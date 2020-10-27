@@ -6,7 +6,9 @@ public class VolumeController : MonoBehaviour
 {
     //controla o volume geral do jogo
 
-    float volumeMaster;
+    public AudioController audioController;
+
+    float volumeMaster, volumeMusics, volumeFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,4 +26,16 @@ public class VolumeController : MonoBehaviour
         volumeMaster = volume;
         AudioListener.volume = volumeMaster;
     }
+
+//    public void VolumeMusics(float volume) 
+//    {
+//        volumeMusics = volume;
+//        audioController.audioSourceMusicaDeFundo.volume = volumeMusics;
+//    }
+
+//    public void VolumeFX(float volume) 
+//    {
+//        volumeFX = volume;
+//       audioController.audioSourceMusicaDeFundo.volume = volumeFX;
+//    }
 }
