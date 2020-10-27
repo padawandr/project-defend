@@ -21,6 +21,7 @@ public class GameController : MonoBehaviour
         }
         txtScore.text = score.ToString();
         Time.timeScale = 1f;
+
     }
 
     public void addScore(int enemyScore)
