@@ -23,7 +23,7 @@ public class SceneController : MonoBehaviour
  
     }
 
-    public void Settngs()
+    public void Settings()
     {
         ConfigMenu.SetActive(true);
     }
