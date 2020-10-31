@@ -59,16 +59,23 @@ public class Worm : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "projetil" || other.gameObject.tag == "Player") {
-            estaMorto = true;
-            podeAndar = false;
-            col.enabled = false;
-            srend.sortingOrder = 0;
-            anim.SetBool("morreu", true);
+        
+        if (other.gameObject.tag == "projetil" || other.gameObject.tag == "Player") 
+        {
             TakeDamage(1);
-            _gc.addScore(pontuacao);
-            Destroy(this.gameObject, tempoMorte);
+            if(currentHealth == 0)
+            {
+                estaMorto = true;
+                podeAndar = false;
+                col.enabled = false;
+                srend.sortingOrder = 0;
+                anim.SetBool("morreu", true);
+                _gc.addScore(pontuacao);
+                Destroy(this.gameObject, tempoMorte);
+            }
+
         }
+        
     }
 
     private void OnBecameInvisible() {
