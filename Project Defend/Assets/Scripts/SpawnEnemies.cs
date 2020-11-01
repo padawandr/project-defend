@@ -9,15 +9,15 @@ public class SpawnEnemies : MonoBehaviour
     public GameObject[] prefabInimigo3;
     public float intervaloSpawn;
 
-    private int pontos;
+    public int pontos;
     private int tipoInimigo;
-    public GameController pontuacao;
+    private GameController pontuacao;
     private int enemyCount;
-    private GameObject[] prefab;
+    private GameObject[] prefab;//prefab que ira assumir a forma de algum dos outros randomicamente
 
     private void Start()
     {
-        pontuacao = FindObjectOfType(typeof(GameController)) as GameController;
+        pontuacao = FindObjectOfType(typeof(GameController)) as GameController;//acesso da pontuação no script "Game Controller"
         prefab = prefabInimigo1;
         StartCoroutine("spawnInimigo");
         enemyCount = 1;
@@ -34,9 +34,8 @@ public class SpawnEnemies : MonoBehaviour
             intervaloSpawn -= .1F;
             enemyCount = 0;
         }
-        if (pontos >= 50)
+        if (pontos >= 50)//randomização de inimigos a partir de certa potuação
         {
-
             tipoInimigo = Random.Range(1, 3);
             if (tipoInimigo == 1)
             {
@@ -47,7 +46,7 @@ public class SpawnEnemies : MonoBehaviour
                 prefab = prefabInimigo2;
             }
         }
-        if (pontos >= 150)
+        if (pontos >= 150)//randomização de inimigos a partir de certa pontuação
         {
             tipoInimigo = Random.Range(1, 4);
             if (tipoInimigo == 1)
@@ -71,7 +70,7 @@ public class SpawnEnemies : MonoBehaviour
 
                 GameObject tempInimigo = Instantiate(prefab[Random.Range(0, prefab.Length)]);
 
-                switch (Random.Range(1, 6))
+                switch (Random.Range(1, 6))//randomização de posição de spawn
                 {
                     case 1: tempInimigo.transform.position = new Vector3(-4, 4, 0); break;
                     case 2: tempInimigo.transform.position = new Vector3(-2, 5, 0); break;
@@ -81,7 +80,7 @@ public class SpawnEnemies : MonoBehaviour
                 }
 
                 enemyCount++;
-                pontos = pontuacao.score;
+                pontos = pontuacao.score;//iguala a variavel de controle de spawn com a pontuação atual.
                 StartCoroutine("spawnInimigo");
             }
 }

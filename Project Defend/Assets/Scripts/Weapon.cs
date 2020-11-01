@@ -11,10 +11,12 @@ public class Weapon : MonoBehaviour
     public bool canShoot;
 
     private float shotTime;
+    private SpawnEnemies pontuacao;//acessa a pontuação no script do spawn
 
     private void Start()
     {
         canShoot = true;
+        pontuacao = FindObjectOfType(typeof(SpawnEnemies)) as SpawnEnemies;
     }
 
     void Update()
@@ -27,6 +29,15 @@ public class Weapon : MonoBehaviour
         if (canShoot && Time.time > shotTime) {
             Instantiate(projectile, shotPoint.position, transform.rotation);
             shotTime = Time.time + timeBetweenShots;
+        }
+
+        if(pontuacao.pontos>= 50)//diminui o tempo do intervalo dos disparos
+        {
+            timeBetweenShots = 1.75f;
+        }
+        if (pontuacao.pontos >= 150)//diminui o tempo de intervalo dos disparos
+        {
+            timeBetweenShots = 1.5f;
         }
     }
 }
