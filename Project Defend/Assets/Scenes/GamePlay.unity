@@ -715,6 +715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 906421807}
   - component: {fileID: 906421808}
+  - component: {fileID: 906421809}
   m_Layer: 0
   m_Name: Seta
   m_TagString: Untagged
@@ -786,6 +787,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &906421809
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906421806}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 821eb1e6eca473e40a7aeb908c722206, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &926241176
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,7 +936,7 @@ MonoBehaviour:
   audioSourceMusicaDeFundo: {fileID: 926241177}
   audioSourceSFX: {fileID: 926241180}
   musicasDeFundo:
-  - {fileID: 8300000, guid: d7b129f797a3b1d40ba719bd06a09d02, type: 3}
+  - {fileID: 8300000, guid: 93de1c0fed5ce0b47b861ca1780150b1, type: 3}
 --- !u!4 &926241179
 Transform:
   m_ObjectHideFlags: 0
@@ -1411,7 +1431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   txtScore: {fileID: 1310829212}
-  sfxHit: {fileID: 8300000, guid: fc0320d289d29f44f8e0532e2d949c88, type: 3}
+  sfxHit: {fileID: 8300000, guid: f9a72a65d0997914e82c55d47a91edfc, type: 3}
   audioController: {fileID: 926241178}
 --- !u!4 &1596871596
 Transform:
