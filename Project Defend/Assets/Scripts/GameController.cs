@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 {
     public Text txtScore;
 
-    private int score;
+    public int score;
 
     private void Start()
     {
