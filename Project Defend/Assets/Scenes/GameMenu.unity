@@ -677,7 +677,8 @@ AudioSource:
   m_GameObject: {fileID: 376166047}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: cc4d68fff7c79f8489527e1f85ac630a,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: fe0c32c91e69288478ca7e7119770eb9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -1429,6 +1430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 979131272}
   - component: {fileID: 979131273}
+  - component: {fileID: 979131274}
   m_Layer: 5
   m_Name: SliderMusic
   m_TagString: Untagged
@@ -1501,13 +1503,37 @@ MonoBehaviour:
   m_FillRect: {fileID: 859838955}
   m_HandleRect: {fileID: 1748727723}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 979131274}
+        m_MethodName: setVolume
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &979131274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979131271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff61f9d7a709774fb4892b8c0612dc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: cc4d68fff7c79f8489527e1f85ac630a, type: 2}
 --- !u!1 &1029446431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2299,7 +2325,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
